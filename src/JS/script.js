@@ -1,5 +1,5 @@
 const date= 2050;
-const statusA= 'student';
+const statusA= 'parent';
 let count = 0;
 if (date === 2050) {
 	console.log("January", 'New Year’s Day');  
@@ -40,5 +40,7 @@ console.log('The total holidays is:', count);
  * The if statement for the year 2050 has been fixed by using the strict equality operator '===' instead of =
  * The count variable is incremented properly using += instead of = in each case
  * The if statement to log(chistmas day) & log(youth day) has been fixed using the strict operator '===' instead of =
- * Status has been changed to statusA because the word "status" has been deprecated(a program or application that is no longer supported or maintained by its developer.)
+ * Status has been changed to statusA because the word "status" has been
+   deprecated(a program or application that is no longer supported or maintained
+   by its developer.)
  */
